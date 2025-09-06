@@ -7,7 +7,6 @@ class Level:
         self.level_number = level_number
         self.load_level()
     
-    """New note"""
     
     def load_level(self):
         if self.level_number == 1:

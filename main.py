@@ -1,4 +1,3 @@
-# Complete your game here
 import pygame
 
 class Level:
@@ -6,7 +5,6 @@ class Level:
     def __init__(self, level_number):
         self.level_number = level_number
         self.load_level()
-    
     
     def load_level(self):
         if self.level_number == 1:
